@@ -1,0 +1,35 @@
+.pagina-home {
+
+  display: flex;
+
+
+    .cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background-color: #6278f7;
+    color: white;
+    justify-content: space-evenly;
+    gap: 700px;
+
+    }
+
+    .lg {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .nav {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+    }
+
+    .nav a {
+      text-decoration: none;
+      color: white;
+    }
+
+}
